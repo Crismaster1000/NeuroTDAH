@@ -57,8 +57,8 @@
 			//var jsonString:String = JSON.stringify(myDataObject);
 
 			uploadRequest = new URLRequest();
-			uploadRequest.url = "http://tdah-campoverde-erazo.herokuapp.com/api/patient-data";
-			//uploadRequest.url = "http://127.0.0.1:5000/";
+			//uploadRequest.url = "http://tdah-campoverde-erazo.herokuapp.com/api/patient-data";
+			uploadRequest.url = "http://127.0.0.1:8080/api/patient-data";
 			//uploadRequest.data = jsonString;
 			//contentTypeHeader = new URLRequestHeader("Content-Type", "application/json");
 			var token = memoria_juegos.data.user_token;

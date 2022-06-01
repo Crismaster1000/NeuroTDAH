@@ -55,9 +55,10 @@
 				trace("JSON A ENVIAR : ", jsonString);
 
 				//var jsonString:String = JSON.stringify(myDataObject);
-
+				
 				uploadRequest = new URLRequest();
-				uploadRequest.url = "https://tdah-campoverde-erazo.herokuapp.com/api/authenticate";
+				//uploadRequest.url = "https://tdah-campoverde-erazo.herokuapp.com/api/authenticate";
+				uploadRequest.url = "http://127.0.0.1:8080/api/authenticate";
 				uploadRequest.data = jsonString;
 				contentTypeHeader = new URLRequestHeader("Content-Type", "application/json");
 				uploadRequest.requestHeaders.push(contentTypeHeader);

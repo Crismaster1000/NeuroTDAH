@@ -46,8 +46,8 @@
 			trace("JSON A ENVIAR : ", jsonString)
 
 			uploadRequest = new URLRequest();
-			//uploadRequest.url = "http://127.0.0.1:5000/";
-			uploadRequest.url = "https://tdah-campoverde-erazo.herokuapp.com/api/scores/";
+			uploadRequest.url = "http://127.0.0.1:8080/api/scores/";
+			//uploadRequest.url = "https://tdah-campoverde-erazo.herokuapp.com/api/scores/";
 			uploadRequest.data = jsonString;
 
       var token = memoria_juegos.data.user_token;
